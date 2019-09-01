@@ -5,7 +5,8 @@ RUN useradd -m urt \
 
 RUN apt update \
 && apt install -y nano \
-&& apt install -y unzip
+&& apt install -y unzip \
+&& apt install -y wget
 
 WORKDIR /home/urt
 #ADD ./UrbanTerror434_full /home/urt/UrbanTerror434_full
